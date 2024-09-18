@@ -21,7 +21,6 @@ async function DiscordRequest(endpoint, options) {
     console.log(res.status);
     throw new Error(JSON.stringify(data));
   }
-  // return original response
   return res;
 }
 
